@@ -85,6 +85,8 @@ const logoSrc = computed(() =>
 
 .logo {
   width: 200px;
+  height: 200px;
+  object-fit: contain;
   margin-bottom: 1rem;
   animation: slideFade 0.6s ease;
 }
